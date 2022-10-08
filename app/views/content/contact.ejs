@@ -1,0 +1,25 @@
+<!--
+* FILE			    :	contact.ejs
+* PROJECT			:	COMP229 SEC 402
+* PROGRAMMER		:	Yehoshya Markh
+* SID               :   301257634
+* DATE              :   2022-10-07
+-->
+
+<link href="./content/css/contact.css" rel="stylesheet" type="text/css">
+
+<!--Simple form, on submit it returns the user to the front/home page-->
+<div class="contact-cont">
+    <h1> <%= title %>  </h1>
+    <form id="form" class="topBefore" action="/home">
+        <input id="name" type="text" placeholder="NAME">
+        <input id="email" type="text" placeholder="E-MAIL">
+        <input id="number" type="text" placeholder="NUMBER">
+        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+    <input id="submit" type="submit" value="GO!">
+        
+    </form>
+    <div id="contact-info">
+        <p>If you'd like to get in touch with me please contact me at faux@gmail.com or my number at 444-5555-4432 </p>
+    </div>
+</div>

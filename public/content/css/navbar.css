@@ -1,0 +1,21 @@
+/*
+* FILE			    :	navbar.css
+* PROJECT			:	COMP229 SEC 402
+* PROGRAMMER		:	Yehoshya Markh
+* SID               :   301257634
+* DATE              :   2022-10-07
+*/
+
+
+.navbar{
+  background-color: #231f32;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-brand, .nav-link{
+  color: white;
+}
+
+
+
+

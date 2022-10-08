@@ -1,0 +1,22 @@
+/*
+* FILE			    :	about.css
+* PROJECT			:	COMP229 SEC 402
+* PROGRAMMER		:	Yehoshya Markh
+* SID               :   301257634
+* DATE              :   2022-10-07
+*/
+
+.about-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+p{
+    width:300px;
+}
+.me{
+    width: 300px;
+}
