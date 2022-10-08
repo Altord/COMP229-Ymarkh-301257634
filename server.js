@@ -1,7 +1,17 @@
+/*
+* FILE			    :	server.js
+* PROJECT			:	COMP229 SEC 402
+* PROGRAMMER		:	Yehoshya Markh
+* SID               :   301257634
+* DATE              :   2022-10-07
+*/
+
+
 import debug from 'debug';
-debug('comp-229');
+debug('ym-comp-229');
 import http from 'http';
 
+//Import all the settings/commands from app.js
 import app from './app/app.js';
 
 const PORT = normalizePort(process.env.PORT || 1986);
